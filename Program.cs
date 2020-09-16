@@ -10,10 +10,11 @@ class Program
 
         while (true)
         {
-            System.Console.Write("Vad vill du lägga i lådan nu  klockan : ");
-            string input = Console.ReadLine();    
+            System.Console.Write("Vad vill du lägga i lådan nu   : ");
+            string input = Console.ReadLine();      
 
-            if (input.ToLower() == "q" || input.ToLower() == "inget finns ")
+            if (input.ToLower() == "q" || input.ToLower
+            () == "inget finns ")
             {
                 Console.WriteLine("Stänger byrån...");
                 Environment.Exit(0);
