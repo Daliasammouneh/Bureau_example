@@ -11,7 +11,7 @@ class Program
         while (true)
         {
             System.Console.Write("Vad vill du lägga i lådan nu  klockan : ");
-            string input = Console.ReadLine();
+            string input = Console.ReadLine();    
 
             if (input.ToLower() == "q" || input.ToLower() == "inget finns ")
             {
