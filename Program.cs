@@ -6,11 +6,11 @@ class Program
     {
         string contents = "";
 
-        System.Console.WriteLine("Öppnar byrålådan nu. ..");
+        System.Console.WriteLine("Öppnar byrålådan nu.förtiden,0 ..");
 
         while (true)
         {
-            System.Console.Write("Vad vill du lägga i lådan nu : ");
+            System.Console.Write("Vad vill du lägga i lådan : ");
             string input = Console.ReadLine();
 
             if (input.ToLower() == "q" || input.ToLower() == "inget")
